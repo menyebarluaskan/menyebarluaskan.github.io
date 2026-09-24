@@ -1,7 +1,8 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+/* @import "tailwindcss/preflight"; */
 @tailwind utilities;
-
+@custom-variant dark (&:where(.dark, .dark *));
 html {
   overflow-y: scroll;
   color-scheme: light;
