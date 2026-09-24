@@ -5,12 +5,12 @@ date: "Sep 24 2026"
 ---
 
 Menyebarluaskan means to broadcast or to spread. It is the name of my current
-developers handle (it's my github username and youtube channel name).
+developer handle (it's my github username and youtube channel name).
 
-If you speak "Bahasa Indonesia" you might wonder why I'm using this word as an
+If you speak "Bahasa Indonesia" you might wonder why am I using this word as an
 Internet username? Because it start as my youtube channel name and it goes really
 well with old Youtube tag line, "broadcast yourself". Also, I love to use a
-very common word in daily life but very odd as a name and here it goes
+very common word in daily life but it would be very odd as a name and here it goes
 "Menyebarluaskan" as my developer and youtube name (And this site name too!).
 
 This website will host my latest blogs update, my projects, and work experience.
@@ -33,3 +33,12 @@ in software development without AI is rather bleak. I will be honest tho if
 the project that I was developing is using AI.
 
 And here it goes, Menyebarluaskan as a profile / portfolio website.
+
+## More about myself
+
+I'm Khoirun Nawa, your unknown Internet Nerd. Studied Computer Science, and
+worked as Software Engineer and Software QA Engineer. Currently developing
+a game after facing tech winter in 2025.
+
+When this post is written, is living in Yogyakarta. Open for any opportunities
+because I love learning and exploring new things.

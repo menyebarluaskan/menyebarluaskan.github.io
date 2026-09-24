@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import Container from "@components/Container.astro";
 import PageLayout from "@layouts/PageLayout.astro";
 import ArrowCard from "@components/ArrowCard.astro";
@@ -23,7 +23,7 @@ const allwork = (await getCollection("work"))
 
 const work = await Promise.all(
   allwork.map(async (item) => {
-    const { Content } = await item.render();
+    const { Content } = await render(item);
     return { ...item, Content };
   })
 );
@@ -40,19 +40,19 @@ const work = await Promise.all(
         <article class="space-y-4">
           <p class="animate">
             Menyebarluaskan means to broadcast or to spread. It is the name of my current
-            developers handle (it's my github username and youtube channel name).
+            developer handle (it's my github username and youtube channel name).
           </p>
           <p class="animate">
-            If you speak "Bahasa Indonesia" you might wonder why I'm using this word as an
+            If you speak "Bahasa Indonesia" you might wonder why am I using this word as an
             Internet username? Because it start as my youtube channel name and it goes really
             well with old Youtube tag line, "broadcast yourself". Also, I love to use a very common
-            word in daily life but very odd as a name and here it goes "Menyebarluaskan" as
+            word in daily life but it would be very odd as a name and here it goes "Menyebarluaskan" as
             my developer and youtube name (And this site name too!).
           </p>
           <p class="animate">
             This website will host my latest blogs update, my projects, and work experience.
             More about me and this project just visit
-            <Link href="/blog/01-menyebarluaskan">this blog post.</Link>
+            <Link href="/blog/01-menyebarluaskan"> this blog post.</Link>
           </p>
         </article>
       </section>
