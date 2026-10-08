@@ -16,7 +16,7 @@ very common word in daily life but it would be very odd as a name and here it go
 This website will host my latest blogs update, my projects, and work experience.
 Initially I wanted to create this from scratch without AI but I found myself do
 nothing to start this project. Thus, I tried to use [Astro](https://astro.build)
-without using any template, I had an ide to create an almost no CSS website
+without using any template, I had an idea to create an almost no CSS website
 but still pleasing to the eyes. I stuck again because it create unnecessary challenge
 and I need a website to host my portfolio quickly, thus here I am with a
 blog template from [astro-nano](https://github.com/markhorn-dev/astro-nano).
@@ -40,5 +40,5 @@ I'm Khoirun Nawa, your unknown Internet Nerd. Studied Computer Science, and
 worked as Software Engineer and Software QA Engineer. Currently developing
 a game after facing tech winter in 2025.
 
-When this post is written, is living in Yogyakarta. Open for any opportunities
+When this post is written, I'm living in Yogyakarta. Open for any opportunities
 because I love learning and exploring new things.
